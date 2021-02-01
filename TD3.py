@@ -48,11 +48,11 @@ while n != m:
 
 n2 = int(input("Entrez un nombre entier positif N :"))
 m2 = int(input("Entrez un nombre entier positif M :"))
-départ = [n2, m2]
+depart = [n2, m2]
 while n2 != m2:
     if n2 > m2:
         n2 = n2 - m2
     else:
         m2 = m2 - n2
 
-print(f"le PGCD de {départ[0]} et {départ[1]} vaut {n2}")
+print(f"le PGCD de {depart[0]} et {depart[1]} vaut {n2}")

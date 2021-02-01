@@ -1,5 +1,7 @@
-# Exercice 1
+# Exercice 1 a)
 print("j'affiche ce que je veux")
+
+# Exercice 1 b)
 
 print("utiliser la combinaison suivante\n\npour passer a la ligne")
 
