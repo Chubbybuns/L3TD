@@ -35,5 +35,13 @@ while t:
 
 print(sorted_list)
 
+for i in range(0, n-1):
+    for j in range(i+1, n):
+        if t[i] > t[j]:
+            x = t[i]
+            t[i] = t[j]
+            t[j] = x
+print(t)
+
 
 
